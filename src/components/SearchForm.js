@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+//when using SearchForm, have table update to each letter typed
+
 export default function SearchForm(props) {
     return (
         <div className="container">
@@ -14,10 +17,6 @@ export default function SearchForm(props) {
                     placeholder="Search For an Employee"
                     id="search"
                 />
-                <br />
-                <button onClick={props.handleFormSubmit} className="btn btn-primary">
-                    Search
-        </button>
             </div>
         </form>
         </div>
